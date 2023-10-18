@@ -1,0 +1,87 @@
+/* Brnd Color: #1E4999 */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 400;
+  /* color: #5e5e5e; */
+  line-height: 1.5;
+}
+
+section p {
+  font-size: 20px;
+}
+
+.hero {
+  height: 500px;
+}
+
+.vertical-center {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.secondary-hero-section {
+  background: #1E4999;
+  color: white;
+}
+
+.text-brand,
+.icon,
+.text-brand-color {
+  color: #1E4999;
+}
+
+#about-us {
+  background: linear-gradient(to right,
+      #1E4999,
+      rgba(0, 0, 0, 0.137)),
+    url("../img/AboutUs.png");
+  background-size: cover;
+}
+
+#leadership {
+  background: linear-gradient(to right,
+      #1E4999,
+      rgba(0, 0, 0, 0.137)),
+    url("../img/Leadership.png");
+  background-size: cover;
+}
+
+#careers {
+  background: linear-gradient(to right,
+      #1E4999,
+      rgba(0, 0, 0, 0.137)),
+    url("../img/Career.png");
+  background-size: cover;
+}
+
+#life-at-wilmertech {
+  background: linear-gradient(to right,
+      #1E4999,
+      rgba(0, 0, 0, 0.137)),
+    url("../img/Career.png");
+  background-size: cover;
+}
+
+#diversity {
+  background: linear-gradient(to right,
+      #1E4999,
+      rgba(0, 0, 0, 0.137)),
+    url("../img/Diversity.png");
+  background-size: cover;
+}
+
+.bg-image {
+  background: linear-gradient(to right,
+      #1E4999,
+      rgba(0, 0, 0, 0.137)),
+    url("../img/AboutUs.png");
+  background-size: cover;
+}
+
+h1.fw-bold.text-white {
+  font-size: 4rem;
+}
